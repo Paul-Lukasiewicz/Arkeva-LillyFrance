@@ -1,2 +1,2 @@
 # Arkeva-LillyFrance
-Chatbot RAF pour assister les techniciens de maintenance
+Chatbot sur une architecture RAG pour assister les techniciens de maintenance
