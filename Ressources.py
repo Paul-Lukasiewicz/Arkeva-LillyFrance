@@ -1,4 +1,4 @@
-OPENAI_API_KEY = ""
+OPENAI_API_KEY = "sk-proj-qFaERwmcJFHifgK9LfIsT3BlbkFJam36ijrp1xYUWlDRD0bK"
 
 prompt_template = """
 Vous êtes un assistant dans le secteur de l'industrie. Votre rôle est d'aider les techniciens dans leurs opérations de maintenance.

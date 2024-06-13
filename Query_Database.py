@@ -82,3 +82,6 @@ def create_prompt(query: str, context_texts: str) -> str:
     prompt = prompt_template.format(context=context_texts, question=query)
     # Retourner le prompt formaté
     return prompt
+
+if __name__ == '__main__':
+	main("Hello")

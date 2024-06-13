@@ -12,9 +12,9 @@ def get_database():
 
 	collection est une instance de la base de donnée qu'on appelle pour intéragir avec les données de la table.
 	"""
-	Data_Path = "POC_Lilly_Database"
+	Data_Path = "Folder_Database"
 	persistent_client = chromadb.PersistentClient(path=Data_Path)
-	collection = persistent_client.get_or_create_collection(name="Lilly_France", embedding_function=CustomOpenAIEmbeddings())
+	collection = persistent_client.get_or_create_collection(name="Client_Company", embedding_function=CustomOpenAIEmbeddings())
 
 	return collection
 
